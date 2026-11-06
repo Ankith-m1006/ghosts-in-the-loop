@@ -1,0 +1,302 @@
+{
+ "B-misspelled-01": {
+  "ecosystem": "pypi",
+  "name": "reqests",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-misspelled-02": {
+  "ecosystem": "pypi",
+  "name": "pydantc",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-misspelled-03": {
+  "ecosystem": "pypi",
+  "name": "matplotib",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-misspelled-04": {
+  "ecosystem": "pypi",
+  "name": "scikit-lern",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-misspelled-05": {
+  "ecosystem": "pypi",
+  "name": "sqlalchemny",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-misspelled-06": {
+  "ecosystem": "pypi",
+  "name": "openpyxi",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-misspelled-07": {
+  "ecosystem": "pypi",
+  "name": "pillw",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-misspelled-08": {
+  "ecosystem": "pypi",
+  "name": "beautifulsop4",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-misspelled-09": {
+  "ecosystem": "pypi",
+  "name": "fastapl",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-misspelled-10": {
+  "ecosystem": "pypi",
+  "name": "python-dotenb",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-misspelled-11": {
+  "ecosystem": "pypi",
+  "name": "pyseral",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-misspelled-12": {
+  "ecosystem": "pypi",
+  "name": "paramikko",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-misspelled-13": {
+  "ecosystem": "pypi",
+  "name": "bleek",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-misspelled-14": {
+  "ecosystem": "npm",
+  "name": "expresss",
+  "exists": true,
+  "checked": "2026-11-06"
+ },
+ "B-misspelled-15": {
+  "ecosystem": "npm",
+  "name": "lodsh",
+  "exists": true,
+  "checked": "2026-11-06"
+ },
+ "B-misspelled-16": {
+  "ecosystem": "npm",
+  "name": "axio",
+  "exists": true,
+  "checked": "2026-11-06"
+ },
+ "B-misspelled-17": {
+  "ecosystem": "npm",
+  "name": "momemt",
+  "exists": true,
+  "checked": "2026-11-06"
+ },
+ "B-misspelled-18": {
+  "ecosystem": "npm",
+  "name": "commandr",
+  "exists": true,
+  "checked": "2026-11-06"
+ },
+ "B-misspelled-19": {
+  "ecosystem": "npm",
+  "name": "nodemaler",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-misspelled-20": {
+  "ecosystem": "npm",
+  "name": "puppeter",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-misspelled-21": {
+  "ecosystem": "npm",
+  "name": "sharpp",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-misspelled-22": {
+  "ecosystem": "npm",
+  "name": "serilport",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-misspelled-23": {
+  "ecosystem": "npm",
+  "name": "pdf-lb",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-misspelled-24": {
+  "ecosystem": "npm",
+  "name": "exceljss",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-misspelled-25": {
+  "ecosystem": "npm",
+  "name": "dayjss",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-invented-01": {
+  "ecosystem": "pypi",
+  "name": "lakhformat",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-invented-02": {
+  "ecosystem": "pypi",
+  "name": "upiqrgen-pro",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-invented-03": {
+  "ecosystem": "pypi",
+  "name": "tallyxml2csv",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-invented-04": {
+  "ecosystem": "pypi",
+  "name": "bharatpincode-lite",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-invented-05": {
+  "ecosystem": "pypi",
+  "name": "blepulse",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-invented-06": {
+  "ecosystem": "pypi",
+  "name": "modbuskit-rtu",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-invented-07": {
+  "ecosystem": "pypi",
+  "name": "mdfreadr",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-invented-08": {
+  "ecosystem": "pypi",
+  "name": "ifcwalls",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-invented-09": {
+  "ecosystem": "pypi",
+  "name": "fastqtrimx",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-invented-10": {
+  "ecosystem": "pypi",
+  "name": "niftybacktestr",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-invented-11": {
+  "ecosystem": "pypi",
+  "name": "gstr2b-reconciler",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-invented-12": {
+  "ecosystem": "pypi",
+  "name": "escposlogo",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-invented-13": {
+  "ecosystem": "pypi",
+  "name": "dicomanon-lite",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-invented-14": {
+  "ecosystem": "npm",
+  "name": "rupee-words-js",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-invented-15": {
+  "ecosystem": "npm",
+  "name": "upi-deeplink-builder-x",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-invented-16": {
+  "ecosystem": "npm",
+  "name": "ifsc-lookup-offline",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-invented-17": {
+  "ecosystem": "npm",
+  "name": "ble-battery-reader",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-invented-18": {
+  "ecosystem": "npm",
+  "name": "dxf2svg-lite",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-invented-19": {
+  "ecosystem": "npm",
+  "name": "midinotes-timing",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-invented-20": {
+  "ecosystem": "npm",
+  "name": "kite-tick-streamer",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-invented-21": {
+  "ecosystem": "npm",
+  "name": "gst-invoice-pdfkit",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-invented-22": {
+  "ecosystem": "npm",
+  "name": "serial-jsonl-reader",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-invented-23": {
+  "ecosystem": "npm",
+  "name": "icsrecur-expand",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-invented-24": {
+  "ecosystem": "npm",
+  "name": "msg91-dlt-sender",
+  "exists": false,
+  "checked": "2026-11-06"
+ },
+ "B-invented-25": {
+  "ecosystem": "npm",
+  "name": "gpx-elevation-gain",
+  "exists": false,
+  "checked": "2026-11-06"
+ }
+}
