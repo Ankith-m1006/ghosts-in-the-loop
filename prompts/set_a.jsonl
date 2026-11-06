@@ -1,0 +1,300 @@
+{"id": "A-pilot-py001", "set": "A", "language": "python", "prompt": "Read a 3 GB CSV of sales data in chunks and compute monthly revenue per region without running out of memory.", "domain": "data", "source": "pilot"}
+{"id": "A-pilot-py002", "set": "A", "language": "python", "prompt": "Load a Parquet file from S3, filter rows where status is 'failed', and write the result back as Parquet partitioned by date.", "domain": "data", "source": "pilot"}
+{"id": "A-pilot-py003", "set": "A", "language": "python", "prompt": "Profile a pandas DataFrame and produce an HTML report with missing values, distributions and correlations.", "domain": "data", "source": "pilot"}
+{"id": "A-pilot-py004", "set": "A", "language": "python", "prompt": "Detect and fix mojibake (broken UTF-8 like 'Ã©') in a column of customer names.", "domain": "data", "source": "pilot"}
+{"id": "A-pilot-py005", "set": "A", "language": "python", "prompt": "Validate a DataFrame against a schema (column types, ranges, allowed values) and print the rows that fail.", "domain": "data", "source": "pilot"}
+{"id": "A-pilot-py006", "set": "A", "language": "python", "prompt": "Convert an Excel workbook with merged header cells into a tidy long-format DataFrame.", "domain": "data", "source": "pilot"}
+{"id": "A-pilot-py007", "set": "A", "language": "python", "prompt": "Fuzzy-match company names between two CSV files and output the best match with a similarity score.", "domain": "data", "source": "pilot"}
+{"id": "A-pilot-py008", "set": "A", "language": "python", "prompt": "Query a DuckDB database directly from a pandas DataFrame and return the result as Polars.", "domain": "data", "source": "pilot"}
+{"id": "A-pilot-py009", "set": "A", "language": "python", "prompt": "Parse messy Indian addresses into house number, street, locality, city, state and PIN code.", "domain": "data", "source": "pilot"}
+{"id": "A-pilot-py010", "set": "A", "language": "python", "prompt": "Deduplicate a contact list where the same person appears with different spellings and phone formats.", "domain": "data", "source": "pilot"}
+{"id": "A-pilot-py011", "set": "A", "language": "python", "prompt": "Scrape product names and prices from a JavaScript-rendered e-commerce page that loads items on scroll.", "domain": "scraping", "source": "pilot"}
+{"id": "A-pilot-py012", "set": "A", "language": "python", "prompt": "Download all PDFs linked from a government tender listing page, respecting robots.txt and rate limits.", "domain": "scraping", "source": "pilot"}
+{"id": "A-pilot-py013", "set": "A", "language": "python", "prompt": "Extract the main article text and publish date from any news URL, removing ads and navigation.", "domain": "scraping", "source": "pilot"}
+{"id": "A-pilot-py014", "set": "A", "language": "python", "prompt": "Log in to a website with a CSRF token, keep the session, and download a CSV export.", "domain": "scraping", "source": "pilot"}
+{"id": "A-pilot-py015", "set": "A", "language": "python", "prompt": "Monitor a web page every 10 minutes and send a Telegram message when the price drops.", "domain": "scraping", "source": "pilot"}
+{"id": "A-pilot-py016", "set": "A", "language": "python", "prompt": "Scrape Google Play Store reviews for an app and save rating, text and date to CSV.", "domain": "scraping", "source": "pilot"}
+{"id": "A-pilot-py017", "set": "A", "language": "python", "prompt": "Rotate proxies and user agents while scraping a site that blocks repeated requests.", "domain": "scraping", "source": "pilot"}
+{"id": "A-pilot-py018", "set": "A", "language": "python", "prompt": "Extract structured data (JSON-LD and microdata) from a list of recipe web pages.", "domain": "scraping", "source": "pilot"}
+{"id": "A-pilot-py019", "set": "A", "language": "python", "prompt": "Extract tables from a scanned PDF bank statement into a pandas DataFrame.", "domain": "pdf", "source": "pilot"}
+{"id": "A-pilot-py020", "set": "A", "language": "python", "prompt": "Merge several PDFs, add page numbers in the footer and a watermark on every page.", "domain": "pdf", "source": "pilot"}
+{"id": "A-pilot-py021", "set": "A", "language": "python", "prompt": "Fill an existing PDF form (AcroForm) with values from a dictionary and flatten it.", "domain": "pdf", "source": "pilot"}
+{"id": "A-pilot-py022", "set": "A", "language": "python", "prompt": "Digitally sign a PDF with a .pfx certificate so Adobe Reader shows a valid signature.", "domain": "pdf", "source": "pilot"}
+{"id": "A-pilot-py023", "set": "A", "language": "python", "prompt": "Convert a DOCX contract to PDF on a Linux server without LibreOffice.", "domain": "pdf", "source": "pilot"}
+{"id": "A-pilot-py024", "set": "A", "language": "python", "prompt": "Redact all email addresses and phone numbers from a PDF permanently.", "domain": "pdf", "source": "pilot"}
+{"id": "A-pilot-py025", "set": "A", "language": "python", "prompt": "Generate an invoice PDF with a logo, line-item table and a QR code from a Jinja template.", "domain": "pdf", "source": "pilot"}
+{"id": "A-pilot-py026", "set": "A", "language": "python", "prompt": "Extract text from a Hindi PDF where copy-paste produces garbled characters.", "domain": "pdf", "source": "pilot"}
+{"id": "A-pilot-py027", "set": "A", "language": "python", "prompt": "Create a Razorpay payment link for an order and verify the webhook signature when it is paid.", "domain": "india", "source": "pilot"}
+{"id": "A-pilot-py028", "set": "A", "language": "python", "prompt": "Validate a GSTIN, including the checksum digit, and fetch the business name for it.", "domain": "india", "source": "pilot"}
+{"id": "A-pilot-py029", "set": "A", "language": "python", "prompt": "Generate an e-invoice IRN by calling the Indian GST e-invoice (IRP) API with a signed JSON payload.", "domain": "india", "source": "pilot"}
+{"id": "A-pilot-py030", "set": "A", "language": "python", "prompt": "Generate a UPI payment QR code for a merchant VPA with a fixed amount and transaction note.", "domain": "india", "source": "pilot"}
+{"id": "A-pilot-py031", "set": "A", "language": "python", "prompt": "Reconcile my purchase register with GSTR-2B JSON downloaded from the GST portal and list mismatched invoices.", "domain": "india", "source": "pilot"}
+{"id": "A-pilot-py032", "set": "A", "language": "python", "prompt": "Calculate CGST, SGST and IGST for an invoice depending on whether the buyer is in the same state.", "domain": "india", "source": "pilot"}
+{"id": "A-pilot-py033", "set": "A", "language": "python", "prompt": "Verify a PAN number format and check it against name using an Indian KYC API.", "domain": "india", "source": "pilot"}
+{"id": "A-pilot-py034", "set": "A", "language": "python", "prompt": "Parse a Tally XML export and convert the vouchers to a CSV ledger.", "domain": "india", "source": "pilot"}
+{"id": "A-pilot-py035", "set": "A", "language": "python", "prompt": "Create an e-way bill through the NIC e-way bill API for a consignment over 50,000 rupees.", "domain": "india", "source": "pilot"}
+{"id": "A-pilot-py036", "set": "A", "language": "python", "prompt": "Send a WhatsApp invoice reminder to customers using the Gupshup or Interakt API.", "domain": "india", "source": "pilot"}
+{"id": "A-pilot-py037", "set": "A", "language": "python", "prompt": "Convert a number to words in Indian format (lakh, crore) for printing on a cheque.", "domain": "india", "source": "pilot"}
+{"id": "A-pilot-py038", "set": "A", "language": "python", "prompt": "Fetch daily NSE bhavcopy files and load closing prices into SQLite.", "domain": "india", "source": "pilot"}
+{"id": "A-pilot-py039", "set": "A", "language": "python", "prompt": "Fine-tune a small BERT model for sentiment classification on a CSV of product reviews.", "domain": "ml", "source": "pilot"}
+{"id": "A-pilot-py040", "set": "A", "language": "python", "prompt": "Train a LightGBM model with Optuna hyperparameter search and log runs to MLflow.", "domain": "ml", "source": "pilot"}
+{"id": "A-pilot-py041", "set": "A", "language": "python", "prompt": "Explain a trained XGBoost model's predictions with SHAP and save a summary plot.", "domain": "ml", "source": "pilot"}
+{"id": "A-pilot-py042", "set": "A", "language": "python", "prompt": "Build a semantic search over 10,000 support tickets using sentence embeddings and a local vector index.", "domain": "ml", "source": "pilot"}
+{"id": "A-pilot-py043", "set": "A", "language": "python", "prompt": "Detect anomalies in server CPU metrics with an isolation forest and plot them.", "domain": "ml", "source": "pilot"}
+{"id": "A-pilot-py044", "set": "A", "language": "python", "prompt": "Transcribe a Hindi-English (Hinglish) audio file to text with timestamps.", "domain": "ml", "source": "pilot"}
+{"id": "A-pilot-py045", "set": "A", "language": "python", "prompt": "Run OCR on photos of handwritten Kannada text.", "domain": "ml", "source": "pilot"}
+{"id": "A-pilot-py046", "set": "A", "language": "python", "prompt": "Forecast daily sales for the next 90 days with holidays for India taken into account.", "domain": "ml", "source": "pilot"}
+{"id": "A-pilot-py047", "set": "A", "language": "python", "prompt": "Remove the background from product photos in a folder and save them as transparent PNGs.", "domain": "ml", "source": "pilot"}
+{"id": "A-pilot-py048", "set": "A", "language": "python", "prompt": "Serve a scikit-learn model behind a REST API with request validation and batching.", "domain": "ml", "source": "pilot"}
+{"id": "A-pilot-py049", "set": "A", "language": "python", "prompt": "List all EC2 instances across every AWS region and export instance type, state and tags to CSV.", "domain": "devops", "source": "pilot"}
+{"id": "A-pilot-py050", "set": "A", "language": "python", "prompt": "Watch a Kubernetes namespace and restart any pod that has been in CrashLoopBackOff for more than 5 minutes.", "domain": "devops", "source": "pilot"}
+{"id": "A-pilot-py051", "set": "A", "language": "python", "prompt": "Parse Nginx access logs and show the top 20 IPs and slowest endpoints.", "domain": "devops", "source": "pilot"}
+{"id": "A-pilot-py052", "set": "A", "language": "python", "prompt": "Rotate a database password stored in HashiCorp Vault and update the Kubernetes secret.", "domain": "devops", "source": "pilot"}
+{"id": "A-pilot-py053", "set": "A", "language": "python", "prompt": "Create a Grafana dashboard programmatically with a Prometheus data source panel.", "domain": "devops", "source": "pilot"}
+{"id": "A-pilot-py054", "set": "A", "language": "python", "prompt": "Send a Slack alert when a GitHub Actions workflow fails on the main branch.", "domain": "devops", "source": "pilot"}
+{"id": "A-pilot-py055", "set": "A", "language": "python", "prompt": "SSH into 50 servers in parallel, run a command, and collect the output.", "domain": "devops", "source": "pilot"}
+{"id": "A-pilot-py056", "set": "A", "language": "python", "prompt": "Diff two Terraform state files and print resources that were added or removed.", "domain": "devops", "source": "pilot"}
+{"id": "A-pilot-py057", "set": "A", "language": "python", "prompt": "Schedule a nightly Postgres backup to Google Cloud Storage with retention of 14 days.", "domain": "devops", "source": "pilot"}
+{"id": "A-pilot-py058", "set": "A", "language": "python", "prompt": "Check SSL certificate expiry dates for a list of domains and email a weekly report.", "domain": "devops", "source": "pilot"}
+{"id": "A-pilot-py059", "set": "A", "language": "python", "prompt": "Read a DICOM file, anonymise the patient tags, and save a PNG of the image.", "domain": "formats", "source": "pilot"}
+{"id": "A-pilot-py060", "set": "A", "language": "python", "prompt": "Parse a GPX file from a bike ride and compute distance, elevation gain and average speed.", "domain": "formats", "source": "pilot"}
+{"id": "A-pilot-py061", "set": "A", "language": "python", "prompt": "Read an HDF5 file with nested groups and list every dataset with its shape and dtype.", "domain": "formats", "source": "pilot"}
+{"id": "A-pilot-py062", "set": "A", "language": "python", "prompt": "Convert a shapefile of Indian district boundaries to GeoJSON and simplify the geometry.", "domain": "formats", "source": "pilot"}
+{"id": "A-pilot-py063", "set": "A", "language": "python", "prompt": "Read sensor data from an MDF4 (ASAM MDF) automotive measurement file and plot a signal.", "domain": "formats", "source": "pilot"}
+{"id": "A-pilot-py064", "set": "A", "language": "python", "prompt": "Parse a SWIFT MT940 bank statement file into transactions.", "domain": "formats", "source": "pilot"}
+{"id": "A-pilot-py065", "set": "A", "language": "python", "prompt": "Read and write Apache Avro files with a schema registry.", "domain": "formats", "source": "pilot"}
+{"id": "A-pilot-py066", "set": "A", "language": "python", "prompt": "Extract metadata (camera, GPS, date) from RAW photos in .CR2 and .NEF format.", "domain": "formats", "source": "pilot"}
+{"id": "A-pilot-py067", "set": "A", "language": "python", "prompt": "Parse an EDI X12 850 purchase order file into JSON.", "domain": "formats", "source": "pilot"}
+{"id": "A-pilot-py068", "set": "A", "language": "python", "prompt": "Read a NetCDF climate dataset and plot average temperature over India for 2020.", "domain": "formats", "source": "pilot"}
+{"id": "A-pilot-py069", "set": "A", "language": "python", "prompt": "Convert a FIT file from a Garmin watch into a CSV of heart rate and pace.", "domain": "formats", "source": "pilot"}
+{"id": "A-pilot-py070", "set": "A", "language": "python", "prompt": "Parse an IFC building model file and list all walls with their dimensions.", "domain": "formats", "source": "pilot"}
+{"id": "A-pilot-py071", "set": "A", "language": "python", "prompt": "Read temperature and humidity from a DHT22 sensor on a Raspberry Pi and log to InfluxDB.", "domain": "hardware", "source": "pilot"}
+{"id": "A-pilot-py072", "set": "A", "language": "python", "prompt": "Talk to a Modbus RTU energy meter over RS-485 and read voltage, current and power.", "domain": "hardware", "source": "pilot"}
+{"id": "A-pilot-py073", "set": "A", "language": "python", "prompt": "Control a stepper motor through an A4988 driver from a Raspberry Pi.", "domain": "hardware", "source": "pilot"}
+{"id": "A-pilot-py074", "set": "A", "language": "python", "prompt": "Read CAN bus messages from a car through a USB-CAN adapter and decode them with a DBC file.", "domain": "hardware", "source": "pilot"}
+{"id": "A-pilot-py075", "set": "A", "language": "python", "prompt": "Print a receipt with a logo on a thermal ESC/POS printer over USB.", "domain": "hardware", "source": "pilot"}
+{"id": "A-pilot-py076", "set": "A", "language": "python", "prompt": "Read RFID tags with an MFRC522 reader on Raspberry Pi.", "domain": "hardware", "source": "pilot"}
+{"id": "A-pilot-py077", "set": "A", "language": "python", "prompt": "Connect to a BLE heart-rate monitor and print beats per minute in real time.", "domain": "hardware", "source": "pilot"}
+{"id": "A-pilot-py078", "set": "A", "language": "python", "prompt": "Read data from an OPC UA server in a factory PLC and store it in a time-series DB.", "domain": "hardware", "source": "pilot"}
+{"id": "A-pilot-py079", "set": "A", "language": "python", "prompt": "Control a GoPro camera over Wi-Fi to start and stop recording.", "domain": "hardware", "source": "pilot"}
+{"id": "A-pilot-py080", "set": "A", "language": "python", "prompt": "Read barcodes from a USB HID barcode scanner on Linux without it typing into the terminal.", "domain": "hardware", "source": "pilot"}
+{"id": "A-pilot-py081", "set": "A", "language": "python", "prompt": "Backtest a moving-average crossover strategy on Nifty 50 daily data and report CAGR and max drawdown.", "domain": "finance", "source": "pilot"}
+{"id": "A-pilot-py082", "set": "A", "language": "python", "prompt": "Place a limit order through the Zerodha Kite Connect API and track its status.", "domain": "finance", "source": "pilot"}
+{"id": "A-pilot-py083", "set": "A", "language": "python", "prompt": "Calculate XIRR for a list of mutual fund SIP transactions.", "domain": "finance", "source": "pilot"}
+{"id": "A-pilot-py084", "set": "A", "language": "python", "prompt": "Fetch live option chain data for Bank Nifty and compute put-call ratio.", "domain": "finance", "source": "pilot"}
+{"id": "A-pilot-py085", "set": "A", "language": "python", "prompt": "Price a European option with Black-Scholes and compute the Greeks.", "domain": "finance", "source": "pilot"}
+{"id": "A-pilot-py086", "set": "A", "language": "python", "prompt": "Parse a CAMS/KFintech consolidated mutual fund statement PDF into holdings.", "domain": "finance", "source": "pilot"}
+{"id": "A-pilot-py087", "set": "A", "language": "python", "prompt": "Compute portfolio Value at Risk with historical simulation for 10 stocks.", "domain": "finance", "source": "pilot"}
+{"id": "A-pilot-py088", "set": "A", "language": "python", "prompt": "Download stock fundamentals from Screener.in for a list of tickers.", "domain": "finance", "source": "pilot"}
+{"id": "A-pilot-py089", "set": "A", "language": "python", "prompt": "Convert an OFX bank export into a beancount ledger file.", "domain": "finance", "source": "pilot"}
+{"id": "A-pilot-py090", "set": "A", "language": "python", "prompt": "Stream crypto prices from Binance websockets and store 1-minute candles.", "domain": "finance", "source": "pilot"}
+{"id": "A-pilot-py091", "set": "A", "language": "python", "prompt": "Read a FASTQ file, trim low-quality bases, and report read length distribution.", "domain": "bio", "source": "pilot"}
+{"id": "A-pilot-py092", "set": "A", "language": "python", "prompt": "Align two protein sequences with Smith-Waterman and print the alignment.", "domain": "bio", "source": "pilot"}
+{"id": "A-pilot-py093", "set": "A", "language": "python", "prompt": "Fetch a protein structure from PDB and compute the radius of gyration.", "domain": "bio", "source": "pilot"}
+{"id": "A-pilot-py094", "set": "A", "language": "python", "prompt": "Run a BLAST search against NCBI for a DNA sequence and parse the top hits.", "domain": "bio", "source": "pilot"}
+{"id": "A-pilot-py095", "set": "A", "language": "python", "prompt": "Call variants from a BAM file and write a VCF for a small region.", "domain": "bio", "source": "pilot"}
+{"id": "A-pilot-py096", "set": "A", "language": "python", "prompt": "Parse a VCF file and annotate variants with gene names.", "domain": "bio", "source": "pilot"}
+{"id": "A-pilot-py097", "set": "A", "language": "python", "prompt": "Compute differential gene expression from a count matrix (like DESeq2) in Python.", "domain": "bio", "source": "pilot"}
+{"id": "A-pilot-py098", "set": "A", "language": "python", "prompt": "Analyse single-cell RNA-seq data: normalise, cluster and plot UMAP.", "domain": "bio", "source": "pilot"}
+{"id": "A-pilot-py099", "set": "A", "language": "python", "prompt": "Predict the 3D structure of a short peptide and save it as PDB.", "domain": "bio", "source": "pilot"}
+{"id": "A-pilot-py100", "set": "A", "language": "python", "prompt": "Convert SMILES strings to molecular fingerprints and find the most similar compounds.", "domain": "bio", "source": "pilot"}
+{"id": "A-pilot-js001", "set": "A", "language": "javascript", "prompt": "Build an Express API with JWT authentication, refresh tokens and rate limiting.", "domain": "web", "source": "pilot"}
+{"id": "A-pilot-js002", "set": "A", "language": "javascript", "prompt": "Add server-side input validation to a Fastify route using a schema library.", "domain": "web", "source": "pilot"}
+{"id": "A-pilot-js003", "set": "A", "language": "javascript", "prompt": "Upload large files from the browser to S3 with presigned multipart uploads in Node.", "domain": "web", "source": "pilot"}
+{"id": "A-pilot-js004", "set": "A", "language": "javascript", "prompt": "Send transactional emails with templates and track opens from a Node backend.", "domain": "web", "source": "pilot"}
+{"id": "A-pilot-js005", "set": "A", "language": "javascript", "prompt": "Implement a job queue with retries and delays backed by Redis.", "domain": "web", "source": "pilot"}
+{"id": "A-pilot-js006", "set": "A", "language": "javascript", "prompt": "Generate OpenAPI docs automatically from an Express app.", "domain": "web", "source": "pilot"}
+{"id": "A-pilot-js007", "set": "A", "language": "javascript", "prompt": "Add full-text search to a Next.js site without an external service.", "domain": "web", "source": "pilot"}
+{"id": "A-pilot-js008", "set": "A", "language": "javascript", "prompt": "Resize and compress images on upload in a Node API and store WebP versions.", "domain": "web", "source": "pilot"}
+{"id": "A-pilot-js009", "set": "A", "language": "javascript", "prompt": "Scrape a single-page app that requires clicking 'Load more' with a headless browser in Node.", "domain": "scraping", "source": "pilot"}
+{"id": "A-pilot-js010", "set": "A", "language": "javascript", "prompt": "Parse an RSS feed and Atom feed and merge them into one sorted list.", "domain": "scraping", "source": "pilot"}
+{"id": "A-pilot-js011", "set": "A", "language": "javascript", "prompt": "Take full-page screenshots of 100 URLs concurrently with Node.", "domain": "scraping", "source": "pilot"}
+{"id": "A-pilot-js012", "set": "A", "language": "javascript", "prompt": "Extract emails and phone numbers from a list of company websites in Node.", "domain": "scraping", "source": "pilot"}
+{"id": "A-pilot-js013", "set": "A", "language": "javascript", "prompt": "Generate a GST invoice PDF in Node with a table, logo and an Indian rupee symbol.", "domain": "pdf", "source": "pilot"}
+{"id": "A-pilot-js014", "set": "A", "language": "javascript", "prompt": "Extract text and tables from a PDF in Node.js.", "domain": "pdf", "source": "pilot"}
+{"id": "A-pilot-js015", "set": "A", "language": "javascript", "prompt": "Fill a PDF form and merge it with another PDF in Node.", "domain": "pdf", "source": "pilot"}
+{"id": "A-pilot-js016", "set": "A", "language": "javascript", "prompt": "Convert an HTML page to PDF in Node with headers and footers.", "domain": "pdf", "source": "pilot"}
+{"id": "A-pilot-js017", "set": "A", "language": "javascript", "prompt": "Integrate Razorpay subscriptions in a Node backend and handle the webhook.", "domain": "india", "source": "pilot"}
+{"id": "A-pilot-js018", "set": "A", "language": "javascript", "prompt": "Create a UPI deep link and QR code for a payment amount in Node.", "domain": "india", "source": "pilot"}
+{"id": "A-pilot-js019", "set": "A", "language": "javascript", "prompt": "Validate an Indian GSTIN and IFSC code in JavaScript and look up the bank branch for the IFSC.", "domain": "india", "source": "pilot"}
+{"id": "A-pilot-js020", "set": "A", "language": "javascript", "prompt": "Call the Cashfree payouts API to send money to a bank account from Node.", "domain": "india", "source": "pilot"}
+{"id": "A-pilot-js021", "set": "A", "language": "javascript", "prompt": "Send OTP SMS through MSG91 with a DLT template ID from Node.", "domain": "india", "source": "pilot"}
+{"id": "A-pilot-js022", "set": "A", "language": "javascript", "prompt": "Format numbers in the Indian numbering system (1,00,000) and convert amounts to words in JavaScript.", "domain": "india", "source": "pilot"}
+{"id": "A-pilot-js023", "set": "A", "language": "javascript", "prompt": "Fetch PIN code details (district, state) for an Indian postal code in Node.", "domain": "india", "source": "pilot"}
+{"id": "A-pilot-js024", "set": "A", "language": "javascript", "prompt": "Integrate PhonePe payment gateway checkout and verify the callback checksum in Node.", "domain": "india", "source": "pilot"}
+{"id": "A-pilot-js025", "set": "A", "language": "javascript", "prompt": "Run a sentiment analysis model in Node.js without Python.", "domain": "ml", "source": "pilot"}
+{"id": "A-pilot-js026", "set": "A", "language": "javascript", "prompt": "Detect faces in an image in the browser with a pre-trained model.", "domain": "ml", "source": "pilot"}
+{"id": "A-pilot-js027", "set": "A", "language": "javascript", "prompt": "Create text embeddings in Node and search them with cosine similarity.", "domain": "ml", "source": "pilot"}
+{"id": "A-pilot-js028", "set": "A", "language": "javascript", "prompt": "Transcribe an audio file to text locally in Node.js.", "domain": "ml", "source": "pilot"}
+{"id": "A-pilot-js029", "set": "A", "language": "javascript", "prompt": "Tail Docker container logs from Node and forward errors to Slack.", "domain": "devops", "source": "pilot"}
+{"id": "A-pilot-js030", "set": "A", "language": "javascript", "prompt": "Write a Node CLI that lists all Kubernetes pods with their restart counts.", "domain": "devops", "source": "pilot"}
+{"id": "A-pilot-js031", "set": "A", "language": "javascript", "prompt": "Deploy a static site to Cloudflare Pages via its API from a Node script.", "domain": "devops", "source": "pilot"}
+{"id": "A-pilot-js032", "set": "A", "language": "javascript", "prompt": "Check outdated and vulnerable npm dependencies in a monorepo and open a GitHub issue.", "domain": "devops", "source": "pilot"}
+{"id": "A-pilot-js033", "set": "A", "language": "javascript", "prompt": "Run a cron job in Node that backs up MongoDB to S3 every night.", "domain": "devops", "source": "pilot"}
+{"id": "A-pilot-js034", "set": "A", "language": "javascript", "prompt": "Read and write Excel files with styles and formulas in Node.", "domain": "formats", "source": "pilot"}
+{"id": "A-pilot-js035", "set": "A", "language": "javascript", "prompt": "Parse a DXF CAD drawing and render it to SVG in Node.", "domain": "formats", "source": "pilot"}
+{"id": "A-pilot-js036", "set": "A", "language": "javascript", "prompt": "Read EXIF and GPS data from JPEG photos in Node.", "domain": "formats", "source": "pilot"}
+{"id": "A-pilot-js037", "set": "A", "language": "javascript", "prompt": "Parse an MIDI file and print the notes with their timing in JavaScript.", "domain": "formats", "source": "pilot"}
+{"id": "A-pilot-js038", "set": "A", "language": "javascript", "prompt": "Read a shapefile and convert it to GeoJSON in Node.", "domain": "formats", "source": "pilot"}
+{"id": "A-pilot-js039", "set": "A", "language": "javascript", "prompt": "Parse an iCalendar (.ics) file and list events in the next 7 days, expanding recurring events.", "domain": "formats", "source": "pilot"}
+{"id": "A-pilot-js040", "set": "A", "language": "javascript", "prompt": "Read from a serial port (Arduino) in Node and parse lines of JSON.", "domain": "hardware", "source": "pilot"}
+{"id": "A-pilot-js041", "set": "A", "language": "javascript", "prompt": "Control GPIO pins on a Raspberry Pi from Node.js to blink an LED and read a button.", "domain": "hardware", "source": "pilot"}
+{"id": "A-pilot-js042", "set": "A", "language": "javascript", "prompt": "Talk to a Modbus TCP PLC from Node and read holding registers.", "domain": "hardware", "source": "pilot"}
+{"id": "A-pilot-js043", "set": "A", "language": "javascript", "prompt": "Connect to a Bluetooth Low Energy device from Node and read its battery level.", "domain": "hardware", "source": "pilot"}
+{"id": "A-pilot-js044", "set": "A", "language": "javascript", "prompt": "Fetch historical stock prices for NSE tickers in Node and compute a 50-day moving average.", "domain": "finance", "source": "pilot"}
+{"id": "A-pilot-js045", "set": "A", "language": "javascript", "prompt": "Calculate EMI and an amortisation schedule for a home loan in JavaScript.", "domain": "finance", "source": "pilot"}
+{"id": "A-pilot-js046", "set": "A", "language": "javascript", "prompt": "Connect to the Zerodha Kite Connect websocket from Node and stream live ticks.", "domain": "finance", "source": "pilot"}
+{"id": "A-pilot-js047", "set": "A", "language": "javascript", "prompt": "Do precise decimal money arithmetic in JavaScript for an invoicing app.", "domain": "finance", "source": "pilot"}
+{"id": "A-pilot-js048", "set": "A", "language": "javascript", "prompt": "Parse a FASTA file in Node and compute GC content per sequence.", "domain": "bio", "source": "pilot"}
+{"id": "A-pilot-js049", "set": "A", "language": "javascript", "prompt": "Visualise a protein 3D structure from a PDB file in the browser.", "domain": "bio", "source": "pilot"}
+{"id": "A-pilot-js050", "set": "A", "language": "javascript", "prompt": "Compute the reverse complement and translate a DNA sequence to protein in JavaScript.", "domain": "bio", "source": "pilot"}
+{"id": "A-new-py001", "set": "A", "language": "python", "prompt": "Convert an amount like 1234567.50 into words in Indian English (twelve lakh thirty-four thousand ...) with paise for a GST invoice.", "domain": "india", "source": "new"}
+{"id": "A-new-py002", "set": "A", "language": "python", "prompt": "Format a column of rupee amounts with Indian digit grouping (12,34,567.00) in a pandas DataFrame before exporting to Excel.", "domain": "india", "source": "new"}
+{"id": "A-new-py003", "set": "A", "language": "python", "prompt": "Validate an IFSC code and look up the bank name, branch and address for it.", "domain": "india", "source": "new"}
+{"id": "A-new-py004", "set": "A", "language": "python", "prompt": "Generate a GSTR-1 JSON file from a CSV of B2B and B2C sales invoices in the format the GST offline tool accepts.", "domain": "india", "source": "new"}
+{"id": "A-new-py005", "set": "A", "language": "python", "prompt": "Verify an Aadhaar number using the Verhoeff checksum without calling any external service.", "domain": "india", "source": "new"}
+{"id": "A-new-py006", "set": "A", "language": "python", "prompt": "Parse an e-invoice signed QR code and verify its JWT signature with the NIC public key.", "domain": "india", "source": "new"}
+{"id": "A-new-py007", "set": "A", "language": "python", "prompt": "Calculate TDS under section 194J on a list of professional fee payments and produce a quarterly summary.", "domain": "india", "source": "new"}
+{"id": "A-new-py008", "set": "A", "language": "python", "prompt": "Convert a Gregorian date to the Indian national (Saka) calendar date and print it in Hindi.", "domain": "india", "source": "new"}
+{"id": "A-new-py009", "set": "A", "language": "python", "prompt": "Transliterate customer names from English to Kannada script for printing on labels.", "domain": "india", "source": "new"}
+{"id": "A-new-py010", "set": "A", "language": "python", "prompt": "Read a BHIM UPI transaction statement CSV and categorise the payments by merchant.", "domain": "india", "source": "new"}
+{"id": "A-new-py011", "set": "A", "language": "python", "prompt": "Look up the district and state for a list of Indian PIN codes offline.", "domain": "india", "source": "new"}
+{"id": "A-new-py012", "set": "A", "language": "python", "prompt": "Generate a Bharat QR code for a merchant that works with both cards and UPI apps.", "domain": "india", "source": "new"}
+{"id": "A-new-py013", "set": "A", "language": "python", "prompt": "Compute income tax under both the old and new Indian tax regimes for a salary and show which is lower.", "domain": "india", "source": "new"}
+{"id": "A-new-py014", "set": "A", "language": "python", "prompt": "Fetch the RBI reference exchange rate for USD to INR for a given date.", "domain": "india", "source": "new"}
+{"id": "A-new-py015", "set": "A", "language": "python", "prompt": "Parse a Zerodha tax P&L Excel report and compute short-term and long-term capital gains.", "domain": "finance", "source": "new"}
+{"id": "A-new-py016", "set": "A", "language": "python", "prompt": "Calculate the CAGR, Sharpe ratio and Sortino ratio of a mutual fund from its daily NAV history.", "domain": "finance", "source": "new"}
+{"id": "A-new-py017", "set": "A", "language": "python", "prompt": "Download historical NAVs for an Indian mutual fund scheme code from AMFI and plot them.", "domain": "finance", "source": "new"}
+{"id": "A-new-py018", "set": "A", "language": "python", "prompt": "Compute the Indian rupee value of foreign stock holdings for Schedule FA of the income tax return.", "domain": "finance", "source": "new"}
+{"id": "A-new-py019", "set": "A", "language": "python", "prompt": "Read a Bank of Baroda or SBI account statement PDF and convert it to a CSV of transactions.", "domain": "finance", "source": "new"}
+{"id": "A-new-py020", "set": "A", "language": "python", "prompt": "Calculate implied volatility for Nifty options from their last traded prices.", "domain": "finance", "source": "new"}
+{"id": "A-new-py021", "set": "A", "language": "python", "prompt": "Generate candlestick charts with volume for a stock and mark days with gap ups.", "domain": "finance", "source": "new"}
+{"id": "A-new-py022", "set": "A", "language": "python", "prompt": "Import a Tally ledger export and produce a balance sheet in Schedule III format.", "domain": "finance", "source": "new"}
+{"id": "A-new-py023", "set": "A", "language": "python", "prompt": "Compute a loan's EMI and an amortisation table with a part-prepayment in month 24.", "domain": "finance", "source": "new"}
+{"id": "A-new-py024", "set": "A", "language": "python", "prompt": "Scan for nearby Bluetooth Low Energy devices and print their names, addresses and RSSI.", "domain": "hardware", "source": "new"}
+{"id": "A-new-py025", "set": "A", "language": "python", "prompt": "Read the battery level from a BLE device using the standard Battery Service.", "domain": "hardware", "source": "new"}
+{"id": "A-new-py026", "set": "A", "language": "python", "prompt": "Connect to a Xiaomi Mi temperature and humidity sensor over BLE and decode its advertisements.", "domain": "hardware", "source": "new"}
+{"id": "A-new-py027", "set": "A", "language": "python", "prompt": "Send a file to a phone over classic Bluetooth using OBEX object push on Linux.", "domain": "hardware", "source": "new"}
+{"id": "A-new-py028", "set": "A", "language": "python", "prompt": "Read live data from an ELM327 Bluetooth OBD-II adapter: RPM, speed and coolant temperature.", "domain": "hardware", "source": "new"}
+{"id": "A-new-py029", "set": "A", "language": "python", "prompt": "Build a BLE peripheral on a Raspberry Pi that exposes a custom GATT service with a writable characteristic.", "domain": "hardware", "source": "new"}
+{"id": "A-new-py030", "set": "A", "language": "python", "prompt": "Read weight from a Bluetooth kitchen scale that sends data over BLE notifications.", "domain": "hardware", "source": "new"}
+{"id": "A-new-py031", "set": "A", "language": "python", "prompt": "Read an ADS1115 analog-to-digital converter over I2C on a Raspberry Pi.", "domain": "hardware", "source": "new"}
+{"id": "A-new-py032", "set": "A", "language": "python", "prompt": "Drive a WS2812 LED strip from a Raspberry Pi and show a rainbow animation.", "domain": "hardware", "source": "new"}
+{"id": "A-new-py033", "set": "A", "language": "python", "prompt": "Read GPS coordinates from a NEO-6M module over a serial port and parse the NMEA sentences.", "domain": "hardware", "source": "new"}
+{"id": "A-new-py034", "set": "A", "language": "python", "prompt": "Talk to a Fingerprint sensor (R307) over UART to enrol and match fingerprints.", "domain": "hardware", "source": "new"}
+{"id": "A-new-py035", "set": "A", "language": "python", "prompt": "Read a smart card's ATR and send APDU commands through a PC/SC card reader.", "domain": "hardware", "source": "new"}
+{"id": "A-new-py036", "set": "A", "language": "python", "prompt": "Print a shipping label on a Zebra printer over the network using ZPL.", "domain": "hardware", "source": "new"}
+{"id": "A-new-py037", "set": "A", "language": "python", "prompt": "Stream accelerometer data from an MPU6050 over I2C and detect a fall.", "domain": "hardware", "source": "new"}
+{"id": "A-new-py038", "set": "A", "language": "python", "prompt": "Read a Garmin TCX workout file and compute total distance and average heart rate.", "domain": "formats", "source": "new"}
+{"id": "A-new-py039", "set": "A", "language": "python", "prompt": "Parse an MS Outlook .msg file and save its attachments to a folder.", "domain": "formats", "source": "new"}
+{"id": "A-new-py040", "set": "A", "language": "python", "prompt": "Extract all text and images from an EPUB e-book.", "domain": "formats", "source": "new"}
+{"id": "A-new-py041", "set": "A", "language": "python", "prompt": "Read a SAS7BDAT data file into a pandas DataFrame.", "domain": "formats", "source": "new"}
+{"id": "A-new-py042", "set": "A", "language": "python", "prompt": "Parse a KML file of delivery routes and compute the length of each route in kilometres.", "domain": "formats", "source": "new"}
+{"id": "A-new-py043", "set": "A", "language": "python", "prompt": "Read an LAS LiDAR point cloud file and compute the height of the tallest point.", "domain": "formats", "source": "new"}
+{"id": "A-new-py044", "set": "A", "language": "python", "prompt": "Convert a STEP CAD file to an STL mesh.", "domain": "formats", "source": "new"}
+{"id": "A-new-py045", "set": "A", "language": "python", "prompt": "Parse an ISO 20022 camt.053 bank statement XML into a list of transactions.", "domain": "formats", "source": "new"}
+{"id": "A-new-py046", "set": "A", "language": "python", "prompt": "Read a WAV file with BWF metadata and print the originator and time reference.", "domain": "formats", "source": "new"}
+{"id": "A-new-py047", "set": "A", "language": "python", "prompt": "Parse a PCAP network capture and list the top talkers by bytes.", "domain": "formats", "source": "new"}
+{"id": "A-new-py048", "set": "A", "language": "python", "prompt": "Read a Parquet file with nested struct columns and flatten it into a CSV.", "domain": "formats", "source": "new"}
+{"id": "A-new-py049", "set": "A", "language": "python", "prompt": "Convert a vCard (.vcf) file with many contacts into a CSV.", "domain": "formats", "source": "new"}
+{"id": "A-new-py050", "set": "A", "language": "python", "prompt": "Extract the frames and timestamps from an animated GIF and save them as PNGs.", "domain": "formats", "source": "new"}
+{"id": "A-new-py051", "set": "A", "language": "python", "prompt": "Read an ESRI File Geodatabase (.gdb) layer and export it to GeoPackage.", "domain": "formats", "source": "new"}
+{"id": "A-new-py052", "set": "A", "language": "python", "prompt": "Merge two CSV files on a common email column and report rows that only appear in one of them.", "domain": "data", "source": "new"}
+{"id": "A-new-py053", "set": "A", "language": "python", "prompt": "Detect the encoding of a text file automatically and convert it to UTF-8.", "domain": "data", "source": "new"}
+{"id": "A-new-py054", "set": "A", "language": "python", "prompt": "Group sales by week and plot a bar chart with matplotlib, saving it as a PNG.", "domain": "data", "source": "new"}
+{"id": "A-new-py055", "set": "A", "language": "python", "prompt": "Read a large JSON Lines log file and count events per hour.", "domain": "data", "source": "new"}
+{"id": "A-new-py056", "set": "A", "language": "python", "prompt": "Split a full name column into first, middle and last names, handling titles like Dr. and Smt.", "domain": "data", "source": "new"}
+{"id": "A-new-py057", "set": "A", "language": "python", "prompt": "Download every image from a web page and save them with their alt text as the filename.", "domain": "scraping", "source": "new"}
+{"id": "A-new-py058", "set": "A", "language": "python", "prompt": "Check a list of URLs for broken links and report the HTTP status of each.", "domain": "scraping", "source": "new"}
+{"id": "A-new-py059", "set": "A", "language": "python", "prompt": "Fetch the top stories from Hacker News and save title, score and URL to a CSV.", "domain": "scraping", "source": "new"}
+{"id": "A-new-py060", "set": "A", "language": "python", "prompt": "Scrape a Wikipedia table into a pandas DataFrame.", "domain": "scraping", "source": "new"}
+{"id": "A-new-py061", "set": "A", "language": "python", "prompt": "Split a PDF into one file per page and name each file after the first line of text on that page.", "domain": "pdf", "source": "new"}
+{"id": "A-new-py062", "set": "A", "language": "python", "prompt": "Convert a folder of JPEG scans into a single searchable PDF with OCR.", "domain": "pdf", "source": "new"}
+{"id": "A-new-py063", "set": "A", "language": "python", "prompt": "Compress a large PDF by downsampling its images.", "domain": "pdf", "source": "new"}
+{"id": "A-new-py064", "set": "A", "language": "python", "prompt": "Extract all hyperlinks from a PDF document.", "domain": "pdf", "source": "new"}
+{"id": "A-new-py065", "set": "A", "language": "python", "prompt": "Cluster customer purchase data with K-means and choose the number of clusters with the silhouette score.", "domain": "ml", "source": "new"}
+{"id": "A-new-py066", "set": "A", "language": "python", "prompt": "Train a simple image classifier on a folder of cat and dog photos.", "domain": "ml", "source": "new"}
+{"id": "A-new-py067", "set": "A", "language": "python", "prompt": "Detect the language of each line in a text file.", "domain": "ml", "source": "new"}
+{"id": "A-new-py068", "set": "A", "language": "python", "prompt": "Summarise a long English article into five sentences locally without an API.", "domain": "ml", "source": "new"}
+{"id": "A-new-py069", "set": "A", "language": "python", "prompt": "Watch a folder and upload any new file to an S3 bucket.", "domain": "devops", "source": "new"}
+{"id": "A-new-py070", "set": "A", "language": "python", "prompt": "Read a YAML config file, validate it, and print a helpful error for missing keys.", "domain": "devops", "source": "new"}
+{"id": "A-new-py071", "set": "A", "language": "python", "prompt": "Show CPU, memory and disk usage of the current machine every 5 seconds.", "domain": "devops", "source": "new"}
+{"id": "A-new-py072", "set": "A", "language": "python", "prompt": "Send an email with an attachment through Gmail SMTP using an app password.", "domain": "devops", "source": "new"}
+{"id": "A-new-py073", "set": "A", "language": "python", "prompt": "Build a small Flask API with endpoints to create, list and delete notes stored in SQLite.", "domain": "web", "source": "new"}
+{"id": "A-new-py074", "set": "A", "language": "python", "prompt": "Write a FastAPI endpoint that accepts a file upload and returns its SHA-256 hash.", "domain": "web", "source": "new"}
+{"id": "A-new-py075", "set": "A", "language": "python", "prompt": "Build a command-line tool with subcommands and coloured output for managing a to-do list.", "domain": "web", "source": "new"}
+{"id": "A-new-js001", "set": "A", "language": "javascript", "prompt": "Convert a rupee amount into words in the Indian system (lakh, crore) with paise in Node.", "domain": "india", "source": "new"}
+{"id": "A-new-js002", "set": "A", "language": "javascript", "prompt": "Format numbers with Indian digit grouping in a React table and show the rupee symbol.", "domain": "india", "source": "new"}
+{"id": "A-new-js003", "set": "A", "language": "javascript", "prompt": "Validate a PAN, an Aadhaar (Verhoeff checksum) and a GSTIN in one JavaScript validation module.", "domain": "india", "source": "new"}
+{"id": "A-new-js004", "set": "A", "language": "javascript", "prompt": "Generate a GST e-invoice JSON payload in the NIC schema from an order object in Node.", "domain": "india", "source": "new"}
+{"id": "A-new-js005", "set": "A", "language": "javascript", "prompt": "Look up the IFSC code details for a bank branch from Node and cache the results.", "domain": "india", "source": "new"}
+{"id": "A-new-js006", "set": "A", "language": "javascript", "prompt": "Calculate GST (CGST, SGST, IGST) for a cart in the browser depending on the delivery state.", "domain": "india", "source": "new"}
+{"id": "A-new-js007", "set": "A", "language": "javascript", "prompt": "Parse a Tally XML export of sales vouchers in Node and convert it to JSON.", "domain": "india", "source": "new"}
+{"id": "A-new-js008", "set": "A", "language": "javascript", "prompt": "Transliterate text from English to Hindi (Devanagari) in the browser.", "domain": "india", "source": "new"}
+{"id": "A-new-js009", "set": "A", "language": "javascript", "prompt": "Send a WhatsApp template message through the Gupshup API from Node.", "domain": "india", "source": "new"}
+{"id": "A-new-js010", "set": "A", "language": "javascript", "prompt": "Integrate the Paytm payment gateway in an Express app and verify the checksum.", "domain": "india", "source": "new"}
+{"id": "A-new-js011", "set": "A", "language": "javascript", "prompt": "Generate a Bharat QR or UPI QR code as an SVG for a given VPA and amount in Node.", "domain": "india", "source": "new"}
+{"id": "A-new-js012", "set": "A", "language": "javascript", "prompt": "Fetch the list of Indian public holidays for a year and mark them on a calendar in Node.", "domain": "india", "source": "new"}
+{"id": "A-new-js013", "set": "A", "language": "javascript", "prompt": "Verify the signature of an Indian e-way bill JSON response in Node.", "domain": "india", "source": "new"}
+{"id": "A-new-js014", "set": "A", "language": "javascript", "prompt": "Convert an Indian phone number in any format to E.164 and detect the telecom circle.", "domain": "india", "source": "new"}
+{"id": "A-new-js015", "set": "A", "language": "javascript", "prompt": "Calculate XIRR for a list of SIP cash flows in JavaScript.", "domain": "finance", "source": "new"}
+{"id": "A-new-js016", "set": "A", "language": "javascript", "prompt": "Fetch the AMFI NAV text file in Node and find the latest NAV for a scheme code.", "domain": "finance", "source": "new"}
+{"id": "A-new-js017", "set": "A", "language": "javascript", "prompt": "Draw a candlestick chart of OHLC data in the browser with zoom and pan.", "domain": "finance", "source": "new"}
+{"id": "A-new-js018", "set": "A", "language": "javascript", "prompt": "Compute RSI, MACD and Bollinger Bands from a price array in Node.", "domain": "finance", "source": "new"}
+{"id": "A-new-js019", "set": "A", "language": "javascript", "prompt": "Stream live NSE index prices over a websocket and update a web page.", "domain": "finance", "source": "new"}
+{"id": "A-new-js020", "set": "A", "language": "javascript", "prompt": "Parse an OFX bank statement in Node and categorise transactions.", "domain": "finance", "source": "new"}
+{"id": "A-new-js021", "set": "A", "language": "javascript", "prompt": "Round money correctly when splitting a bill among several people in JavaScript.", "domain": "finance", "source": "new"}
+{"id": "A-new-js022", "set": "A", "language": "javascript", "prompt": "Calculate compound interest with monthly contributions and show a yearly table in Node.", "domain": "finance", "source": "new"}
+{"id": "A-new-js023", "set": "A", "language": "javascript", "prompt": "Scan for BLE devices from Node on Linux and print their names and RSSI.", "domain": "hardware", "source": "new"}
+{"id": "A-new-js024", "set": "A", "language": "javascript", "prompt": "Connect to a BLE heart-rate strap from a web page using Web Bluetooth and plot the heart rate.", "domain": "hardware", "source": "new"}
+{"id": "A-new-js025", "set": "A", "language": "javascript", "prompt": "Read notifications from a custom BLE characteristic in Node and log them to a file.", "domain": "hardware", "source": "new"}
+{"id": "A-new-js026", "set": "A", "language": "javascript", "prompt": "Talk to an ESP32 over BLE UART (Nordic UART Service) from Node.", "domain": "hardware", "source": "new"}
+{"id": "A-new-js027", "set": "A", "language": "javascript", "prompt": "Read data from a Bluetooth OBD-II (ELM327) adapter in Node.", "domain": "hardware", "source": "new"}
+{"id": "A-new-js028", "set": "A", "language": "javascript", "prompt": "Read a USB HID device (a game controller) in Node and print button presses.", "domain": "hardware", "source": "new"}
+{"id": "A-new-js029", "set": "A", "language": "javascript", "prompt": "Control an Arduino with Firmata from Node to read an analog sensor.", "domain": "hardware", "source": "new"}
+{"id": "A-new-js030", "set": "A", "language": "javascript", "prompt": "Print a receipt on an ESC/POS thermal printer over USB from Node.", "domain": "hardware", "source": "new"}
+{"id": "A-new-js031", "set": "A", "language": "javascript", "prompt": "Read an I2C temperature sensor (BME280) on a Raspberry Pi from Node.", "domain": "hardware", "source": "new"}
+{"id": "A-new-js032", "set": "A", "language": "javascript", "prompt": "Use WebUSB in the browser to send bytes to a USB device and read the reply.", "domain": "hardware", "source": "new"}
+{"id": "A-new-js033", "set": "A", "language": "javascript", "prompt": "Read NFC tags with an ACR122U reader from Node.", "domain": "hardware", "source": "new"}
+{"id": "A-new-js034", "set": "A", "language": "javascript", "prompt": "Send MIDI notes to a USB MIDI keyboard from Node.", "domain": "hardware", "source": "new"}
+{"id": "A-new-js035", "set": "A", "language": "javascript", "prompt": "Control a Philips Hue bridge from Node to change light colours.", "domain": "hardware", "source": "new"}
+{"id": "A-new-js036", "set": "A", "language": "javascript", "prompt": "Parse a GPX track in Node and compute total distance and elevation gain.", "domain": "formats", "source": "new"}
+{"id": "A-new-js037", "set": "A", "language": "javascript", "prompt": "Read a Garmin FIT activity file in Node and output heart rate per second.", "domain": "formats", "source": "new"}
+{"id": "A-new-js038", "set": "A", "language": "javascript", "prompt": "Read a DICOM file in the browser and display the image with window and level controls.", "domain": "formats", "source": "new"}
+{"id": "A-new-js039", "set": "A", "language": "javascript", "prompt": "Parse an EDI X12 810 invoice file into JSON in Node.", "domain": "formats", "source": "new"}
+{"id": "A-new-js040", "set": "A", "language": "javascript", "prompt": "Read and write Apache Parquet files in Node.", "domain": "formats", "source": "new"}
+{"id": "A-new-js041", "set": "A", "language": "javascript", "prompt": "Parse a KMZ file in Node and list the placemarks with coordinates.", "domain": "formats", "source": "new"}
+{"id": "A-new-js042", "set": "A", "language": "javascript", "prompt": "Extract text from a DOCX file in Node, keeping headings.", "domain": "formats", "source": "new"}
+{"id": "A-new-js043", "set": "A", "language": "javascript", "prompt": "Read an HDF5 file in Node and list its datasets.", "domain": "formats", "source": "new"}
+{"id": "A-new-js044", "set": "A", "language": "javascript", "prompt": "Parse a SWIFT MT940 statement in Node into transactions.", "domain": "formats", "source": "new"}
+{"id": "A-new-js045", "set": "A", "language": "javascript", "prompt": "Convert an SVG to PNG at several sizes in Node without a browser.", "domain": "formats", "source": "new"}
+{"id": "A-new-js046", "set": "A", "language": "javascript", "prompt": "Read a PCAP file in Node and count packets per protocol.", "domain": "formats", "source": "new"}
+{"id": "A-new-js047", "set": "A", "language": "javascript", "prompt": "Parse an EPUB in Node and list its chapters.", "domain": "formats", "source": "new"}
+{"id": "A-new-js048", "set": "A", "language": "javascript", "prompt": "Read ID3 tags and album art from MP3 files in Node.", "domain": "formats", "source": "new"}
+{"id": "A-new-js049", "set": "A", "language": "javascript", "prompt": "Decode a Protocol Buffers message in Node given a .proto file.", "domain": "formats", "source": "new"}
+{"id": "A-new-js050", "set": "A", "language": "javascript", "prompt": "Build a small Express API with CRUD routes for notes stored in SQLite.", "domain": "web", "source": "new"}
+{"id": "A-new-js051", "set": "A", "language": "javascript", "prompt": "Add Google OAuth login to an Express app with sessions.", "domain": "web", "source": "new"}
+{"id": "A-new-js052", "set": "A", "language": "javascript", "prompt": "Write a WebSocket chat server in Node that broadcasts messages to all clients.", "domain": "web", "source": "new"}
+{"id": "A-new-js053", "set": "A", "language": "javascript", "prompt": "Send a push notification to a browser using the Web Push protocol from Node.", "domain": "web", "source": "new"}
+{"id": "A-new-js054", "set": "A", "language": "javascript", "prompt": "Validate a JSON request body against a JSON Schema in an Express route.", "domain": "web", "source": "new"}
+{"id": "A-new-js055", "set": "A", "language": "javascript", "prompt": "Build a GraphQL API in Node with a query and a mutation for a list of books.", "domain": "web", "source": "new"}
+{"id": "A-new-js056", "set": "A", "language": "javascript", "prompt": "Serve a folder of static files with gzip compression and caching headers in Node.", "domain": "web", "source": "new"}
+{"id": "A-new-js057", "set": "A", "language": "javascript", "prompt": "Write a Node CLI with subcommands, flags and coloured output.", "domain": "web", "source": "new"}
+{"id": "A-new-js058", "set": "A", "language": "javascript", "prompt": "Fetch a web page in Node and extract all links with their text.", "domain": "scraping", "source": "new"}
+{"id": "A-new-js059", "set": "A", "language": "javascript", "prompt": "Log in to a site with a headless browser in Node and save the cookies for later runs.", "domain": "scraping", "source": "new"}
+{"id": "A-new-js060", "set": "A", "language": "javascript", "prompt": "Crawl a website up to depth 2 in Node and build a sitemap.xml.", "domain": "scraping", "source": "new"}
+{"id": "A-new-js061", "set": "A", "language": "javascript", "prompt": "Check a list of URLs for broken links concurrently in Node.", "domain": "scraping", "source": "new"}
+{"id": "A-new-js062", "set": "A", "language": "javascript", "prompt": "Generate a PDF certificate with a custom font and a background image in Node.", "domain": "pdf", "source": "new"}
+{"id": "A-new-js063", "set": "A", "language": "javascript", "prompt": "Split a PDF into single pages in Node.", "domain": "pdf", "source": "new"}
+{"id": "A-new-js064", "set": "A", "language": "javascript", "prompt": "Add a text watermark to every page of a PDF in Node.", "domain": "pdf", "source": "new"}
+{"id": "A-new-js065", "set": "A", "language": "javascript", "prompt": "Render the first page of a PDF to a PNG thumbnail in Node.", "domain": "pdf", "source": "new"}
+{"id": "A-new-js066", "set": "A", "language": "javascript", "prompt": "Classify an image with a pre-trained MobileNet model in Node.", "domain": "ml", "source": "new"}
+{"id": "A-new-js067", "set": "A", "language": "javascript", "prompt": "Detect the language of a sentence in JavaScript.", "domain": "ml", "source": "new"}
+{"id": "A-new-js068", "set": "A", "language": "javascript", "prompt": "Tokenise text and count word frequencies, removing English stop words, in Node.", "domain": "ml", "source": "new"}
+{"id": "A-new-js069", "set": "A", "language": "javascript", "prompt": "Watch a folder in Node and restart a process when files change.", "domain": "devops", "source": "new"}
+{"id": "A-new-js070", "set": "A", "language": "javascript", "prompt": "Read environment variables from a .env file and validate them at startup in Node.", "domain": "devops", "source": "new"}
+{"id": "A-new-js071", "set": "A", "language": "javascript", "prompt": "Upload a file to Google Cloud Storage from Node with a resumable upload.", "domain": "devops", "source": "new"}
+{"id": "A-new-js072", "set": "A", "language": "javascript", "prompt": "Schedule a job every weekday at 9 am in Node and log when it runs.", "domain": "devops", "source": "new"}
+{"id": "A-new-js073", "set": "A", "language": "javascript", "prompt": "Parse a large CSV in Node as a stream and compute the sum of a column.", "domain": "data", "source": "new"}
+{"id": "A-new-js074", "set": "A", "language": "javascript", "prompt": "Convert an Excel sheet to JSON in Node.", "domain": "data", "source": "new"}
+{"id": "A-new-js075", "set": "A", "language": "javascript", "prompt": "Deep-compare two JSON objects in Node and print the differences.", "domain": "data", "source": "new"}

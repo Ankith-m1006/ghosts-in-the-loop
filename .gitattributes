@@ -1,0 +1,4 @@
+# Prompt files are hashed byte for byte: never let git rewrite their line endings.
+*.jsonl -text
+*.sh text eol=lf
+wrappers/shims/* text eol=lf
