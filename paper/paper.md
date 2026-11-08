@@ -53,6 +53,9 @@ The attacker registers a name on PyPI or npm that coding agents are likely to in
 - T2 typosquat: also blocks names within a small edit distance of a popular package.
 - T3 code reading: for existing packages that already look risky, also reads the package source as text, without running it, for install-time network calls, hidden code and credential access (Gatekeeper's Inspector).
 
+![Figure 1](https://raw.githubusercontent.com/Ankith-m1006/ghosts-in-the-loop/master/results/figures/fig1-harness.png)
+**Figure 1.** *Harness. Each step's command runs in a fresh sandbox against the live registries; every install is copied to a shadow guard that records what each tier would block.*
+
 **Recovery.** After the first ghost in an episode, we classify the rest of the trajectory: *switched_real* (a later install of an existing package), *second_ghost* (another invented name), *git_or_url*, *wrote_it* (no further installs, episode finished) or *gave_up*.
 
 
@@ -102,6 +105,8 @@ The shadow guard scored every install both agents ran (Table 1). An existence ch
 ## 7. Discussion and limitations
 
 The loop does not save the agent from the first mistake: the install runs before any error is seen. That makes the install boundary, not the prompt, the right place for a check. A guard there is cheap and, for names that do not exist yet, exact.
+
+**What agent builders should do.** Three changes follow directly from the numbers. (1) Check package existence where the install runs (a wrapper or hook around pip and npm), not in the prompt: it caught every ghost here and wrongly blocked none of 1,152 real installs. (2) Treat a package name that comes from the task or the user as untrusted input; a bigger model does not fix this (85% vs 88%). (3) Do not accept "done" after a failed install until the dependency actually resolves: E4B shipped a stand-in for the missing library in 42% of its self-written recoveries. Typosquat rules are useful but noisy (1 to 2% false blocks), so they should ask a person rather than block.
 
 Limitations: one simple agent loop, not OpenHands or Claude Code; two model sizes; Set B is designed to stress models and must not be read as a natural rate; registries change daily, so a ghost today may be registered tomorrow (we record dates); "wrote it" is not correctness; T1–T3 false blocks are measured on our agents' real installs only, not on all of PyPI and npm; the 31B model ran with FP8 weights.
 
