@@ -18,7 +18,7 @@ The Gemma 4 Developer Agent competition frames this setting directly: small loca
 1. A measurement of *ghost install attempts*: install commands an agent really executed for names the registry reports as not found, across natural and stress prompts, for two Gemma 4 sizes.
 2. A taxonomy of what agents do after a ghost install fails (switch to a real package, try another invented name, install from a URL, write the code themselves, give up), measured from trajectories.
 3. An install-boundary guard evaluated in shadow mode on every real install the agents made, reporting catch rate and false blocks per rule tier, so the cost of each extra check is visible.
-4. A small, reproducible harness (about 420 lines), frozen and hashed prompt sets, and full trajectories.
+4. A small, reproducible harness (about 420 lines), frozen and hashed prompt sets, and aggregate results (raw trajectories withheld, see Section 8).
 
 ## 2. Related work
 
